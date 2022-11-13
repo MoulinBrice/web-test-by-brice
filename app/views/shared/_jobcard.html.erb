@@ -1,9 +1,23 @@
-<div id="job-card" class="container">
-    <div class="card-box">
-        <img>
-        <h2></h2>
-        <p></p>
+<div id="job-card" class="container d-flex justify-content-center mt-4">
+    <div class="card-box me-5">
+        <%= cl_image_tag("4884785_osy0yu", width: 200, height: 200, radius: 10, crop: :fill) %>
+        <h2>Web Developer</h2>
+        <p>Adipisicing elit mollit exercitation do deserunt tempor eiusmod et.</p>
+        <a class="btn btn-primary rounded-pill w-50">Enter</a>
     </div>
 
+    <div class="card-box me-5">
+        <%= cl_image_tag("Wavy_Bus-05_Single-08_hbbl0j", width: 200, height: 200, radius: 10, crop: :fill) %>
+        <h2>CDUI</h2>
+        <p>Adipisicing elit mollit exercitation do deserunt tempor eiusmod et.</p>
+        <a class="btn btn-primary rounded-pill w-50">Enter</a>
+    </div>
 
+    <div class="card-box">
+        <%= cl_image_tag("4782_srwqgf", width: 200, height: 200, radius: 10, crop: :fill) %>
+        <h2>App developer</h2>
+        <p>Adipisicing elit mollit exercitation do deserunt tempor eiusmod et.</p>
+        <a class="btn btn-primary rounded-pill w-50" url("#")>Enter</a>
+    </div>
 </div>
+

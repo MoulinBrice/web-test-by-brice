@@ -1,4 +1,15 @@
+<div id="banner-body">
+    <div id="banner-text-aera">
+        <h1>Enter<br>Into my World</h1>
+        <p class="w-50">
+        Lorem ipsum dolor sit amet. Sed nulla numquam ut unde itaque vel cumque exercitationem.
+        </p>
+        <%= link_to("Jump In", "/work", :class => "rounded-pill") %>
+    </div>
 
+     <div id="banner-img" style="background-image: url('<%= cl_image_path '19362653_p00lel', height: 500, crop: :fill %>'); background-size:cover"></div>
+</div>
 
-<h1>Pages#index</h1>
-<p>Find me in app/views/pages/index.html.erb</p>
+<%= render "shared/jobcard" %>
+<%= render "shared/formation" %>
+<%= render "shared/footer" %>
